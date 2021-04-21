@@ -13,8 +13,11 @@ image{
 a{
   text-decoration: none;
 }
+ul{
+  list-style: none;
+}
 body{
-
+  font-family: 'Raleway', sans-serif;
 }
 
 .site-container{
@@ -23,6 +26,7 @@ body{
 }
 
 header{
+  background-color: #FFFFFF;
   .header-top{
     padding: .5rem 0rem;
     background-color: $brand-color-main;
@@ -44,5 +48,58 @@ header{
   }
   .header-middle{
     padding: .5rem 0rem;
+    .site-logo{
+      .logo{
+        width:25%;
+      }
+    }
+    .site-search{
+      .search-container{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+      .search-input{
+        border-radius: 20px;
+        color: #a0d18c;
+        width: 200px;
+        height: 30px;
+        outline: none;
+        padding: 1rem;
+        border: 1px solid $brand-color-main;
+        &::placeholder{
+          color: $brand-color-main;
+        }
+      }
+      .search-button{
+        border: none;
+        border-radius: 50%;
+        outline: none;
+        width: 30px;
+        height: 30px;
+        padding: 1rem;
+        position: absolute;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $brand-color-main;
+
+      }
+    }
+  }
+  .header-bottom{
+
+     .nav-link{
+       color: #0a0c0d !important;
+       padding-right: 2rem !important;
+       padding-left: 0rem !important;
+       padding-top: 1.5rem !important;
+       padding-bottom: 1.5rem !important;
+       text-transform: uppercase;
+       font-weight: 700 !important;
+
+     }
+
   }
 }

@@ -8,11 +8,14 @@
   <meta name="msapplication-TileColor" content="#00a175">
   <meta name="robots" content="index, follow" />
   <title>ANP</title>
-  <link rel="stylesheet" href="content/argon.min.css">
+  <link rel="stylesheet" href="content/argon-design-system.min.css">
   <link rel="stylesheet" href="content/owl.carousel.min.css">
   <link rel="stylesheet" href="content/owl.theme.default.min.css">
-  <link rel="stylesheet" href="content/main.css">
+  <link rel="icon" href="" type="image/gif" sizes="80x80" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="content/main.css">
 </head>
 <body>
 
@@ -42,22 +45,107 @@
     </div>
     </div>
   </section>
-  <section class="header-middle">
+  <section class="header-middle d-none d-md-block">
     <div class="site-container">
       <div class="d-flex justify-content-between align-items-center">
         <div class="site-logo">
           <a href="#" class="d-block">
-            <img src="" alt="Anp">
+            <img src="images/site-logo.png" alt="Anp"  class="logo">
           </a>
         </div>
         <div class="site-search">
-
+          <div class="search-container">
+            <input type="text" class="search-input" placeholder="axtar...">
+            <button class="search-button">
+              <i class="fas fa-search text-white"></i>
+            </button>
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="header-bottom"></section>
+  <section class="header-bottom">
+    <div class="site-container">
+      <nav class="navbar py-2 navbar-expand-lg navbar-dark px-0 ">
+        <div class="container-fluid px-0">
+          <a class="navbar-brand pl-2 pl-md-0 mr-lg-5 d-md-none" href="/home/az">
+
+            <img class="logo-normal rounded site-logo" src="images/site-logo.png" alt="anp-logo">
+
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-primary" aria-controls="navbar-primary" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-primary">
+            <div class="navbar-collapse-header">
+              <div class="row">
+                <div class="col-6 collapse-brand">
+
+
+                  <a href="/home/az">
+
+                    <img src="/images/site-logo.png" alt="anp">
+
+                  </a>
+
+
+                </div>
+                <div class="col-6 collapse-close">
+                  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-primary" aria-controls="navbar-primary" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <ul class="navbar-nav w-100 d-flex justify-content-start" id="nav-list">
+
+              <li class="nav-item site-nav-item">
+                <a class="nav-link" href="/posts/az">xəbərlər</a>
+              </li>
+
+              <li class="nav-item site-nav-item">
+                <a class="nav-link" href="/announcements/az">elanlar</a>
+              </li>
+
+              <li class="nav-item site-nav-item">
+                <a class="nav-link" href="/elections/az">seçki</a>
+              </li>
+
+              <li class="nav-item site-nav-item">
+                <a class="nav-link" href="/legislation/az">qanunvericilik</a>
+              </li>
+
+              <li class="nav-item site-nav-item">
+                <a class="nav-link" href="/publications/az">nəşrlər</a>
+              </li>
+
+              <li class="nav-item site-nav-item">
+                <a class="nav-link" href="/reports/az">hesabatlar</a>
+              </li>
+
+              <li class="nav-item site-nav-item">
+                <a class="nav-link" href="/multimedia/az">multimedia</a>
+              </li>
+
+              <li class="nav-item site-nav-item">
+                <a class="nav-link" href="/councils/az"> ictimai şuralar</a>
+              </li>
+
+
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
 </header>
+
+
+<script src="scripts/core/jquery.min.js" ></script>
+<script src="scripts/core/bootstrap.min.js" ></script>
 
 </body>
 </html>
