@@ -1,9 +1,48 @@
+$brand-color-main:#00a175;
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+image{
+  display: block;
+  width: 100%;
+}
+a{
+  text-decoration: none;
+}
 body{
 
+}
+
+.site-container{
+  max-width: 1368px;
+  margin: auto;
+}
+
+header{
+  .header-top{
+    padding: .5rem 0rem;
+    background-color: $brand-color-main;
+    .header-social{
+      .social-link{
+        color: #FFFFFF;
+        border-left: 2px solid #FFFFFF;
+        padding: 0rem 1rem;
+      }
+      .social-link:last-child{
+        border-right: 2px solid #FFFFFF;
+      }
+    }
+    .header-lang{
+      .language{
+        padding: 0rem .5rem;
+      }
+    }
+  }
+  .header-middle{
+    padding: .5rem 0rem;
+  }
 }
