@@ -14,7 +14,8 @@ p {
   padding: 0; }
 
 body {
-  font-family: 'Raleway', sans-serif !important; }
+  font-family: 'Raleway', sans-serif !important;
+  background-image: url("../images/site-back.jpg"); }
 
 .site-container {
   max-width: 1368px;
@@ -127,7 +128,8 @@ body {
     border-radius: 10px;
     background-color: #FFFFFF;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    margin-bottom: 1rem; }
     .site-main .site-category .post img {
       width: 100%;
       display: block;
