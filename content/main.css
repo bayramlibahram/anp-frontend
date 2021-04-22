@@ -125,11 +125,37 @@ body {
     font-size: 1.5rem !important; }
   .site-main .site-category .post {
     border-radius: 10px;
-    background-color: #FFFFFF; }
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column; }
     .site-main .site-category .post img {
       width: 100%;
       display: block;
       border-radius: 10px; }
+    .site-main .site-category .post .post-title {
+      flex-shrink: 0; }
+    .site-main .site-category .post .post-description {
+      flex: 1 0 auto; }
+    .site-main .site-category .post .post-link {
+      position: relative;
+      background-color: #f7f7f7;
+      flex-shrink: 0; }
+      .site-main .site-category .post .post-link .post-link-more {
+        font-size: 1rem;
+        color: #0a0c0d;
+        font-weight: 600;
+        padding: 0rem 1rem; }
+      .site-main .site-category .post .post-link .post-link-arrow {
+        position: absolute;
+        right: 32px;
+        color: #FFFFFF;
+        font-size: 2.5rem; }
+      .site-main .site-category .post .post-link .link {
+        border-bottom: 60px solid #00a175;
+        border-left: 30px solid transparent;
+        border-right: 0px solid transparent;
+        height: 0;
+        width: 80px; }
 
 .site-footer {
   flex-shrink: 0; }
