@@ -3,55 +3,67 @@
   padding: 0;
   box-sizing: border-box; }
 
-image {
-  display: block;
-  width: 100%; }
-
 a {
   text-decoration: none; }
 
 ul {
   list-style: none; }
 
+p {
+  margin: 0;
+  padding: 0; }
+
 body {
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Raleway', sans-serif !important; }
 
 .site-container {
   max-width: 1368px;
   margin: auto; }
 
-header {
+.site-form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.site-header {
+  flex-shrink: 0;
   background-color: #FFFFFF; }
-  header .header-top {
+  .site-header .header-top {
     padding: .5rem 0rem;
     background-color: #00a175; }
-    header .header-top .header-social .social-link {
-      color: #FFFFFF;
-      border-left: 2px solid #FFFFFF;
-      padding: 0rem 1rem; }
-    header .header-top .header-social .social-link:last-child {
-      border-right: 2px solid #FFFFFF; }
-    header .header-top .header-lang .language {
+    .site-header .header-top .header-social {
       padding: 0rem .5rem; }
-  header .header-middle {
-    padding: .5rem 0rem; }
-    header .header-middle .site-logo .logo {
+      .site-header .header-top .header-social .social-link {
+        font-size: .7rem;
+        color: #FFFFFF;
+        border-left: 2px solid #FFFFFF;
+        padding: 0rem .7rem; }
+      .site-header .header-top .header-social .social-link:last-child {
+        border-right: 2px solid #FFFFFF; }
+    .site-header .header-top .header-lang .language {
+      padding: 0rem .2rem; }
+      .site-header .header-top .header-lang .language img {
+        width: 90%; }
+  .site-header .header-middle {
+    padding: 1rem 0rem; }
+    .site-header .header-middle .site-logo .logo {
       width: 25%; }
-    header .header-middle .site-search .search-container {
+    .site-header .header-middle .site-search .search-container {
       display: flex;
       justify-content: flex-end;
       align-items: center; }
-    header .header-middle .site-search .search-input {
+    .site-header .header-middle .site-search .search-input {
       border-radius: 20px;
       color: #a0d18c;
-      width: 200px;
+      width: 250px;
       height: 30px;
       outline: none;
       padding: 1rem;
-      border: 1px solid #00a175; }
-      header .header-middle .site-search .search-input::placeholder {
+      border: 2px solid #00a175; }
+      .site-header .header-middle .site-search .search-input::placeholder {
         color: #00a175; }
-    header .header-middle .site-search .search-button {
+    .site-header .header-middle .site-search .search-button {
       border: none;
       border-radius: 50%;
       outline: none;
@@ -63,11 +75,95 @@ header {
       align-items: center;
       justify-content: center;
       background-color: #00a175; }
-  header .header-bottom .nav-link {
+  .site-header .header-bottom .navbar .nav-link {
     color: #0a0c0d !important;
-    padding-right: 2rem !important;
-    padding-left: 0rem !important;
-    padding-top: 1.5rem !important;
-    padding-bottom: 1.5rem !important;
     text-transform: uppercase;
-    font-weight: 700 !important; }
+    font-weight: 700 !important;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 2px solid #FFFFFF;
+    transition: color, border 0.3s ease;
+    border-radius: 0px; }
+    .site-header .header-bottom .navbar .nav-link:hover {
+      color: #00a175;
+      border-bottom: 2px solid #00a175; }
+  .site-header .header-bottom .navbar .navbar-toggler .navbar-toggler-icon {
+    background-image: url("../images/hamburger.png") !important; }
+
+.site-main {
+  flex: 1 0 auto; }
+  .site-main .site-slider .owl-main {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; }
+    .site-main .site-slider .owl-main .owl-dots {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      right: 2.5rem; }
+      .site-main .site-slider .owl-main .owl-dots button {
+        outline: none; }
+        .site-main .site-slider .owl-main .owl-dots button span {
+          background-color: #00a175;
+          padding: .4rem; }
+  .site-main .site-slider .slider-item {
+    position: relative; }
+    .site-main .site-slider .slider-item .slider-image {
+      width: 100%;
+      display: block; }
+    .site-main .site-slider .slider-item::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 1;
+      background: rgba(0, 0, 0, 0.5); }
+  .site-main .site-category .post-category {
+    color: #00a175;
+    font-size: 1.5rem !important; }
+  .site-main .site-category .post {
+    border-radius: 10px;
+    background-color: #FFFFFF; }
+    .site-main .site-category .post img {
+      width: 100%;
+      display: block;
+      border-radius: 10px; }
+
+.site-footer {
+  flex-shrink: 0; }
+
+@media (min-width: 768px) {
+  .site-header .header-top {
+    padding: .5rem 0rem;
+    background-color: #00a175; }
+    .site-header .header-top .header-social {
+      padding: 0rem .5rem; }
+      .site-header .header-top .header-social .social-link {
+        font-size: 1rem;
+        color: #FFFFFF;
+        border-left: 2px solid #FFFFFF;
+        padding: 0rem 1rem; }
+      .site-header .header-top .header-social .social-link:last-child {
+        border-right: 2px solid #FFFFFF; }
+    .site-header .header-top .header-lang .language {
+      padding: 0rem .5rem; }
+  .site-main .site-category .post-category {
+    color: #00a175;
+    font-size: 2.5rem !important; }
+  .site-main .site-category .post {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    cursor: pointer; }
+    .site-main .site-category .post img {
+      width: 100%;
+      display: block;
+      border-radius: 10px; }
+    .site-main .site-category .post .post-title {
+      font-size: 1.7rem;
+      color: #0a0c0d;
+      font-weight: 700;
+      transition: color 0.3s ease; }
+    .site-main .site-category .post:hover .post-title {
+      color: #00a175; } }

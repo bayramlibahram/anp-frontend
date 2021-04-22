@@ -1,23 +1,25 @@
-$brand-color-main:#00a175;
 
+$brand-color-main:#00a175;
+$default-color-1:#0a0c0d;
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-image{
-  display: block;
-  width: 100%;
-}
 a{
   text-decoration: none;
 }
+
 ul{
   list-style: none;
 }
+p{
+  margin: 0;
+  padding: 0;
+}
 body{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif !important;
 }
 
 .site-container{
@@ -25,16 +27,26 @@ body{
   margin: auto;
 }
 
-header{
+.site-form{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-header{
+  flex-shrink: 0;
   background-color: #FFFFFF;
   .header-top{
     padding: .5rem 0rem;
     background-color: $brand-color-main;
     .header-social{
+      padding: 0rem .5rem;
       .social-link{
+        font-size: .7rem;
         color: #FFFFFF;
         border-left: 2px solid #FFFFFF;
-        padding: 0rem 1rem;
+        padding: 0rem .7rem;
       }
       .social-link:last-child{
         border-right: 2px solid #FFFFFF;
@@ -42,12 +54,16 @@ header{
     }
     .header-lang{
       .language{
-        padding: 0rem .5rem;
+        padding: 0rem .2rem;
+        img{
+          width: 90%;
+        }
       }
     }
   }
+
   .header-middle{
-    padding: .5rem 0rem;
+    padding: 1rem 0rem;
     .site-logo{
       .logo{
         width:25%;
@@ -62,11 +78,11 @@ header{
       .search-input{
         border-radius: 20px;
         color: #a0d18c;
-        width: 200px;
+        width: 250px;
         height: 30px;
         outline: none;
         padding: 1rem;
-        border: 1px solid $brand-color-main;
+        border: 2px solid $brand-color-main;
         &::placeholder{
           color: $brand-color-main;
         }
@@ -79,7 +95,6 @@ header{
         height: 30px;
         padding: 1rem;
         position: absolute;
-
         display: flex;
         align-items: center;
         justify-content: center;
@@ -88,18 +103,153 @@ header{
       }
     }
   }
+
   .header-bottom{
+    .navbar{
+      .nav-link{
+        color: #0a0c0d !important;
+        text-transform: uppercase;
+        font-weight: 700 !important;
+        font-family: 'Raleway', sans-serif;
+        border-bottom: 2px solid #FFFFFF;
+        transition: color, border 0.3s ease;
+        border-radius: 0px;
+        &:hover{
+          color: $brand-color-main;
+          border-bottom: 2px solid $brand-color-main;
+        }
+      }
+      .navbar-toggler{
+        .navbar-toggler-icon{
+          background-image: url('../images/hamburger.png') !important;
+        }
+      }
+    }
+  }
 
-     .nav-link{
-       color: #0a0c0d !important;
-       padding-right: 2rem !important;
-       padding-left: 0rem !important;
-       padding-top: 1.5rem !important;
-       padding-bottom: 1.5rem !important;
-       text-transform: uppercase;
-       font-weight: 700 !important;
+}
 
-     }
+.site-main{
+  flex: 1 0 auto;
+  .site-slider{
+    .owl-main{
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      .owl-dots{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        right: 2.5rem;
+        button{
+          outline: none;
+          span{
+            background-color: $brand-color-main;
+            padding: .4rem;
+          }
+        }
+      }
+    }
 
+    .slider-item{
+      position: relative;
+      .slider-image{
+       width: 100%;
+        display: block;
+      }
+       &::before{
+         content: '';
+         position: absolute;
+         top: 0;
+         left: 0;
+         bottom: 0;
+         right: 0;
+         z-index: 1;
+         background: rgba(0, 0, 0, .5);
+       }
+    }
+  }
+
+  .site-category{
+    .post-category{
+      color: $brand-color-main;
+      font-size: 1.5rem !important;
+    }
+    .post{
+      border-radius: 10px;
+      background-color: #FFFFFF;
+      img{
+        width: 100%;
+        display: block;
+        border-radius: 10px;
+      }
+
+      .post-link{
+
+      }
+    }
+  }
+}
+
+.site-footer{
+  flex-shrink: 0;
+}
+
+@media (min-width: 768px) {
+  .site-header{
+    .header-top{
+      padding: .5rem 0rem;
+      background-color: $brand-color-main;
+      .header-social{
+        padding: 0rem .5rem;
+        .social-link{
+          font-size: 1rem;
+          color: #FFFFFF;
+          border-left: 2px solid #FFFFFF;
+          padding: 0rem 1rem;
+        }
+        .social-link:last-child{
+          border-right: 2px solid #FFFFFF;
+        }
+      }
+      .header-lang{
+        .language{
+          padding: 0rem .5rem;
+        }
+      }
+    }
+  }
+  .site-main{
+    .site-category{
+
+      .post-category{
+        color: $brand-color-main;
+        font-size: 2.5rem !important;
+      }
+      .post{
+        border-radius: 10px;
+        background-color: #FFFFFF;
+        cursor:pointer;
+        img{
+          width: 100%;
+          display: block;
+          border-radius: 10px;
+        }
+        .post-title{
+          font-size: 1.7rem;
+          color: $default-color-1;
+          font-weight: 700;
+          transition: color 0.3s ease;
+
+        }
+        .post-link{
+
+        }
+        &:hover .post-title{
+          color: $brand-color-main;
+        }
+      }
+    }
   }
 }

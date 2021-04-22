@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08f310f9-a37d-4c29-9171-deef5f0e42e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/site-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/sitelogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/hamburger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/photos/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/photos/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/photos/13.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/photos/14.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/photos/15.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/photos/16.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/photos/17.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/photos/18.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/photos/19.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/photos/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/photos/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/photos/3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/photos/4..jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/photos/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/photos/6..jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/photos/7.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/photos/8.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/photos/9.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/site-back.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/content/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -48,6 +67,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Bahram\Desktop\anp-frontend\images" />
+      <recent name="C:\Users\Bahram\Desktop\anp-frontend\images\photos" />
     </key>
   </component>
   <component name="RunManager">
@@ -69,7 +89,10 @@
       <option name="presentableId" value="Default" />
       <updated>1619004431374</updated>
       <workItem from="1619004435608" duration="5000" />
-      <workItem from="1619004472849" duration="12462000" />
+      <workItem from="1619004472849" duration="12779000" />
+      <workItem from="1619031058872" duration="4439000" />
+      <workItem from="1619079284459" duration="14619000" />
+      <workItem from="1619107764362" duration="1087000" />
     </task>
     <servers />
   </component>
@@ -86,6 +109,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
