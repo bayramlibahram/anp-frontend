@@ -107,12 +107,12 @@ body {
         .site-main .site-slider .owl-main .owl-dots button span {
           background-color: #00a175;
           padding: .4rem; }
-  .site-main .site-slider .slider-item {
+  .site-main .site-slider .slider-item .slider-image-container {
     position: relative; }
-    .site-main .site-slider .slider-item .slider-image {
+    .site-main .site-slider .slider-item .slider-image-container .slider-image {
       width: 100%;
       display: block; }
-    .site-main .site-slider .slider-item::before {
+    .site-main .site-slider .slider-item .slider-image-container::before {
       content: '';
       position: absolute;
       top: 0;
@@ -121,6 +121,18 @@ body {
       right: 0;
       z-index: 1;
       background: rgba(0, 0, 0, 0.5); }
+  .site-main .site-slider .slider-item .slider-info img {
+    display: none; }
+  .site-main .site-slider .slider-item .slider-info .slider-title {
+    position: absolute;
+    width: 100%;
+    text-align: justify;
+    font-size: .7rem;
+    font-weight: 400;
+    color: #00a175;
+    bottom: 0;
+    background-color: #FFFFFF;
+    padding: 0.5rem; }
   .site-main .site-category .post-category {
     color: #00a175;
     font-size: 1.5rem !important; }
@@ -177,6 +189,36 @@ body {
         border-right: 2px solid #FFFFFF; }
     .site-header .header-top .header-lang .language {
       padding: 0rem .5rem; }
+  .site-main .site-slider .slider-item .slider-image-container {
+    position: relative; }
+    .site-main .site-slider .slider-item .slider-image-container .slider-image {
+      width: 100%;
+      display: block; }
+    .site-main .site-slider .slider-item .slider-image-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 1;
+      background: rgba(0, 0, 0, 0.5); }
+  .site-main .site-slider .slider-item .slider-info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .site-main .site-slider .slider-item .slider-info img {
+      display: block; }
+    .site-main .site-slider .slider-item .slider-info .slider-title {
+      position: absolute;
+      width: 65%;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #00a175;
+      border-bottom: 1px solid #7777;
+      text-align: center;
+      bottom: auto; }
   .site-main .site-category .post-category {
     color: #00a175;
     font-size: 2.5rem !important; }
