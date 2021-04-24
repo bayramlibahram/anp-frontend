@@ -241,11 +241,134 @@ body{
       }
     }
   }
+
+  .site-resources{
+    .resources-image-container{
+      position: relative;
+      background-color: $brand-color-main;
+      .resources-title{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: 700;
+        font-size: 1rem;
+        color: $default-color-1;
+        width: 80%;
+      }
+
+      .resources-date{
+        position: absolute;
+        bottom: 15px;
+        left: 60px;
+        font-weight: 400;
+        color: $default-color-1;
+      }
+
+      .resources-image{
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+
+      .resources-overlay{
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+
+      }
+
+      .resources-icon{
+        color: white;
+        font-size: 2rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        background-color: #FFFFFF;
+        padding: .5rem;
+        color: $brand-color-main;
+        border-radius: 10px;
+      }
+
+      &:hover {
+        .resources-image{
+          opacity: 0.3;
+        }
+        .resources-overlay{
+          opacity: 1;
+        }
+      }
+
+    }
+  }
+
+  .site-media{
+    .media-container{
+      border-radius: 10px;
+      background-color: #FFFFFF;
+      transition: all 0.3s ease;
+      .media-image{
+        transform: scale(1);
+      }
+
+     .media-info{
+       padding: 1rem;
+       position: relative;
+
+       .media-date{
+         color: $brand-color-main;
+       }
+
+       .media-title{
+         color: $default-color-1;
+         font-size: 1rem;
+         font-weight: 600;
+       }
+
+     }
+
+      &:hover .media-image{
+        transform: scale(1.1);
+      }
+
+    }
+  }
 }
 
 .site-footer{
   flex-shrink: 0;
+
+  .footer-bottom{
+    background-color: $brand-color-main;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .footer-social{
+      padding: 0rem .5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+        .footer-social-link{
+          font-size: .7rem;
+          color: #FFFFFF;
+          padding: 0rem .7rem;
+        }
+
+    }
+  }
 }
+
 
 @media (min-width: 768px) {
   .site-header{
@@ -272,6 +395,7 @@ body{
     }
   }
   .site-main{
+
     .site-slider{
       .slider-item{
         .slider-image-container{
@@ -312,6 +436,7 @@ body{
         }
       }
     }
+
     .site-category{
 
       .post-category{
@@ -340,6 +465,77 @@ body{
         &:hover .post-title{
           color: $brand-color-main;
         }
+      }
+    }
+
+    .site-resources{
+      .resources-image-container{
+        position: relative;
+        background-color: $brand-color-main;
+        .resources-title{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-weight: 700;
+          font-size: 1.5rem;
+          color: $default-color-1;
+          width: 80%;
+        }
+
+        .resources-date{
+          position: absolute;
+          bottom: 15px;
+          left: 60px;
+          font-weight: 600;
+          color: $default-color-1;
+        }
+
+        .resources-image{
+          opacity: 1;
+          display: block;
+          width: 100%;
+          height: auto;
+          transition: .5s ease;
+          backface-visibility: hidden;
+        }
+
+        .resources-overlay{
+          transition: .5s ease;
+          opacity: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          text-align: center;
+
+        }
+
+        .resources-icon{
+          color: white;
+          font-size: 3rem;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          text-align: center;
+          background-color: #FFFFFF;
+          padding: .7rem;
+          color: $brand-color-main;
+          border-radius: 10px;
+        }
+
+        &:hover {
+          .resources-image{
+            opacity: 0.3;
+          }
+          .resources-overlay{
+            opacity: 1;
+          }
+        }
+
       }
     }
 

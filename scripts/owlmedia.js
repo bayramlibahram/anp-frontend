@@ -136,10 +136,3 @@
 })( window.Zepto || window.jQuery, window,  document );
 //end of owl2row plugin
 
-//init carousel
-$(".owl-media").owlCarousel({
-    loop: true,
-    autoplay: true,
-    owl2row: true,
-    margin:10
-});
