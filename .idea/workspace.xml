@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08f310f9-a37d-4c29-9171-deef5f0e42e9" name="Default Changelist" comment="update">
-      <change beforePath="$PROJECT_DIR$/content/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/content/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/marquee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/marquee.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/material-dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/material-dashboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/material-kit.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/material-kit.min.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/subsite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/subsite.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/tab.min.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +105,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
