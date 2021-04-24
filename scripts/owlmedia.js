@@ -144,6 +144,8 @@ $(".owl-media").owlCarousel({
     0: {
       items: 1,
       owl2row: false,
+      dots: false,
+      nav: false,
     },
     768: {
       items: 4,

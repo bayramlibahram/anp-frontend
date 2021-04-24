@@ -343,17 +343,13 @@ body {
       position: relative;
     }
     .owl-media {
-      display: flex;
-      width: 90%;
+      display: block;
       margin: auto;
-      align-items: center;
-      position: initial;
       .owl-stage-outer {
         position: initial;
       }
       .owl-nav {
         position: absolute;
-        display: block;
         width: 100%;
         left: 0;
         display: flex;
@@ -618,6 +614,37 @@ body {
     }
 
     .site-media {
+      .owl-media {
+        .owl-nav {
+          position: absolute;
+          width: 100%;
+          left: 0;
+          display: flex;
+          justify-content: space-between;
+          margin: 0;
+          button {
+            background-color: $brand-color-main;
+            padding: 1rem;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative !important;
+            outline: none;
+            span {
+              color: #ffffff;
+              position: absolute;
+              font-size: 3rem;
+              position: absolute;
+              top: 43%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+            }
+          }
+        }
+      }
     }
   }
 }
