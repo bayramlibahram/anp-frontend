@@ -339,45 +339,6 @@ body {
   }
 
   .site-media {
-    .medias {
-      position: relative;
-    }
-    .owl-media {
-      display: block;
-      margin: auto;
-      .owl-stage-outer {
-        position: initial;
-      }
-      .owl-nav {
-        position: absolute;
-        width: 100%;
-        left: 0;
-        display: flex;
-        justify-content: space-between;
-        margin: 0;
-        button {
-          background-color: $brand-color-main;
-          padding: 1rem;
-          width: 60px;
-          height: 60px;
-          border-radius: 50%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          position: relative !important;
-          outline: none;
-          span {
-            color: #ffffff;
-            position: absolute;
-            font-size: 3rem;
-            position: absolute;
-            top: 43%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-          }
-        }
-      }
-    }
     .media-container {
       border-radius: 10px;
       background-color: #ffffff;
@@ -614,9 +575,21 @@ body {
     }
 
     .site-media {
+      .medias {
+        position: relative;
+      }
       .owl-media {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        align-items: center;
+        position: initial;
+        .owl-stage-outer {
+          position: initial;
+        }
         .owl-nav {
           position: absolute;
+          display: block;
           width: 100%;
           left: 0;
           display: flex;
@@ -643,6 +616,35 @@ body {
               transform: translate(-50%, -50%);
             }
           }
+        }
+      }
+      .media-container {
+        border-radius: 10px;
+        background-color: #ffffff;
+        transition: all 0.3s ease;
+
+        .media-image {
+          transition: transform 0.3s ease;
+          transform: scale(1);
+        }
+
+        .media-info {
+          padding: 1rem;
+          position: relative;
+
+          .media-date {
+            color: $brand-color-main;
+          }
+
+          .media-title {
+            color: $default-color-1;
+            font-size: 1rem;
+            font-weight: 600;
+          }
+        }
+
+        &:hover .media-image {
+          transform: scale(1.1);
         }
       }
     }

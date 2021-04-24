@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08f310f9-a37d-4c29-9171-deef5f0e42e9" name="Default Changelist" comment="update">
+      <change beforePath="$PROJECT_DIR$/content/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/content/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
