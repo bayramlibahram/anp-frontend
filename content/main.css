@@ -14,7 +14,7 @@ p {
   padding: 0; }
 
 body {
-  font-family: 'Raleway', sans-serif !important;
+  font-family: "Raleway", sans-serif !important;
   background-image: url("../images/site-back.jpg"); }
 
 .site-container {
@@ -29,21 +29,21 @@ body {
 
 .site-header {
   flex-shrink: 0;
-  background-color: #FFFFFF; }
+  background-color: #ffffff; }
   .site-header .header-top {
-    padding: .5rem 0rem;
+    padding: 0.5rem 0rem;
     background-color: #00a175; }
     .site-header .header-top .header-social {
-      padding: 0rem .5rem; }
+      padding: 0rem 0.5rem; }
       .site-header .header-top .header-social .social-link {
-        font-size: .7rem;
-        color: #FFFFFF;
-        border-left: 2px solid #FFFFFF;
-        padding: 0rem .7rem; }
+        font-size: 0.7rem;
+        color: #ffffff;
+        border-left: 2px solid #ffffff;
+        padding: 0rem 0.7rem; }
       .site-header .header-top .header-social .social-link:last-child {
-        border-right: 2px solid #FFFFFF; }
+        border-right: 2px solid #ffffff; }
     .site-header .header-top .header-lang .language {
-      padding: 0rem .2rem; }
+      padding: 0rem 0.2rem; }
       .site-header .header-top .header-lang .language img {
         width: 90%; }
   .site-header .header-middle {
@@ -80,8 +80,8 @@ body {
     color: #0a0c0d !important;
     text-transform: uppercase;
     font-weight: 700 !important;
-    font-family: 'Raleway', sans-serif;
-    border-bottom: 2px solid #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    border-bottom: 2px solid #ffffff;
     transition: color, border 0.3s ease;
     border-radius: 0px; }
     .site-header .header-bottom .navbar .nav-link:hover {
@@ -106,14 +106,14 @@ body {
         outline: none; }
         .site-main .site-slider .owl-main .owl-dots button span {
           background-color: #00a175;
-          padding: .4rem; }
+          padding: 0.4rem; }
   .site-main .site-slider .slider-item .slider-image-container {
     position: relative; }
     .site-main .site-slider .slider-item .slider-image-container .slider-image {
       width: 100%;
       display: block; }
     .site-main .site-slider .slider-item .slider-image-container::before {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       left: 0;
@@ -127,18 +127,18 @@ body {
     position: absolute;
     width: 100%;
     text-align: justify;
-    font-size: .7rem;
+    font-size: 0.7rem;
     font-weight: 400;
     color: #00a175;
     bottom: 0;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     padding: 0.5rem; }
   .site-main .site-category .post-category {
     color: #00a175;
     font-size: 1.5rem !important; }
   .site-main .site-category .post {
     border-radius: 10px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem; }
@@ -162,7 +162,7 @@ body {
       .site-main .site-category .post .post-link .post-link-arrow {
         position: absolute;
         right: 32px;
-        color: #FFFFFF;
+        color: #ffffff;
         font-size: 2.5rem; }
       .site-main .site-category .post .post-link .link {
         border-bottom: 60px solid #00a175;
@@ -193,10 +193,10 @@ body {
       display: block;
       width: 100%;
       height: auto;
-      transition: .5s ease;
+      transition: 0.5s ease;
       backface-visibility: hidden; }
     .site-main .site-resources .resources-image-container .resources-overlay {
-      transition: .5s ease;
+      transition: 0.5s ease;
       opacity: 0;
       position: absolute;
       top: 50%;
@@ -213,19 +213,57 @@ body {
       transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       text-align: center;
-      background-color: #FFFFFF;
-      padding: .5rem;
+      background-color: #ffffff;
+      padding: 0.5rem;
       color: #00a175;
       border-radius: 10px; }
     .site-main .site-resources .resources-image-container:hover .resources-image {
       opacity: 0.3; }
     .site-main .site-resources .resources-image-container:hover .resources-overlay {
       opacity: 1; }
+  .site-main .site-media .medias {
+    position: relative; }
+  .site-main .site-media .owl-media {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    position: initial; }
+    .site-main .site-media .owl-media .owl-stage-outer {
+      position: initial; }
+    .site-main .site-media .owl-media .owl-nav {
+      position: absolute;
+      display: block;
+      width: 100%;
+      left: 0;
+      display: flex;
+      justify-content: space-between;
+      margin: 0; }
+      .site-main .site-media .owl-media .owl-nav button {
+        background-color: #00a175;
+        padding: 1rem;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative !important;
+        outline: none; }
+        .site-main .site-media .owl-media .owl-nav button span {
+          color: #ffffff;
+          position: absolute;
+          font-size: 3rem;
+          position: absolute;
+          top: 43%;
+          left: 50%;
+          transform: translate(-50%, -50%); }
   .site-main .site-media .media-container {
     border-radius: 10px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     transition: all 0.3s ease; }
     .site-main .site-media .media-container .media-image {
+      transition: transform 0.3s ease;
       transform: scale(1); }
     .site-main .site-media .media-container .media-info {
       padding: 1rem;
@@ -247,37 +285,37 @@ body {
     align-items: center;
     justify-content: space-between; }
     .site-footer .footer-bottom .footer-social {
-      padding: 0rem .5rem;
+      padding: 0rem 0.5rem;
       display: flex;
       align-items: center;
       justify-content: space-between; }
       .site-footer .footer-bottom .footer-social .footer-social-link {
-        font-size: .7rem;
-        color: #FFFFFF;
-        padding: 0rem .7rem; }
+        font-size: 0.7rem;
+        color: #ffffff;
+        padding: 0rem 0.7rem; }
 
 @media (min-width: 768px) {
   .site-header .header-top {
-    padding: .5rem 0rem;
+    padding: 0.5rem 0rem;
     background-color: #00a175; }
     .site-header .header-top .header-social {
-      padding: 0rem .5rem; }
+      padding: 0rem 0.5rem; }
       .site-header .header-top .header-social .social-link {
         font-size: 1rem;
-        color: #FFFFFF;
-        border-left: 2px solid #FFFFFF;
+        color: #ffffff;
+        border-left: 2px solid #ffffff;
         padding: 0rem 1rem; }
       .site-header .header-top .header-social .social-link:last-child {
-        border-right: 2px solid #FFFFFF; }
+        border-right: 2px solid #ffffff; }
     .site-header .header-top .header-lang .language {
-      padding: 0rem .5rem; }
+      padding: 0rem 0.5rem; }
   .site-main .site-slider .slider-item .slider-image-container {
     position: relative; }
     .site-main .site-slider .slider-item .slider-image-container .slider-image {
       width: 100%;
       display: block; }
     .site-main .site-slider .slider-item .slider-image-container::before {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       left: 0;
@@ -306,7 +344,7 @@ body {
     font-size: 2.5rem !important; }
   .site-main .site-category .post {
     border-radius: 10px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     cursor: pointer; }
     .site-main .site-category .post img {
       width: 100%;
@@ -342,10 +380,10 @@ body {
       display: block;
       width: 100%;
       height: auto;
-      transition: .5s ease;
+      transition: 0.5s ease;
       backface-visibility: hidden; }
     .site-main .site-resources .resources-image-container .resources-overlay {
-      transition: .5s ease;
+      transition: 0.5s ease;
       opacity: 0;
       position: absolute;
       top: 50%;
@@ -362,8 +400,8 @@ body {
       transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       text-align: center;
-      background-color: #FFFFFF;
-      padding: .7rem;
+      background-color: #ffffff;
+      padding: 0.7rem;
       color: #00a175;
       border-radius: 10px; }
     .site-main .site-resources .resources-image-container:hover .resources-image {
