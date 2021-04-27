@@ -4,7 +4,8 @@
   box-sizing: border-box; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #0a0c0d; }
 
 ul {
   list-style: none; }
@@ -239,21 +240,45 @@ body {
         font-weight: 600; }
     .site-main .site-media .media-container:hover .media-image {
       transform: scale(1.1); }
+  .site-main .site-get-involved .involved-container {
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px; }
+    .site-main .site-get-involved .involved-container .involved-image {
+      width: 25%;
+      display: block; }
+    .site-main .site-get-involved .involved-container .involved-title {
+      text-align: center;
+      font-weight: 600;
+      font-size: 1.2rem;
+      color: #0a0c0d; }
 
 .site-footer {
   flex-shrink: 0; }
+  .site-footer .footer-top {
+    background-color: #ffffff; }
   .site-footer .footer-bottom {
-    background-color: #00a175;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; }
+    background-color: #00a175; }
+    .site-footer .footer-bottom .site-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+    .site-footer .footer-bottom .footer-copyright {
+      padding: 0rem 0.7rem;
+      color: #ffffff;
+      font-size: 1rem;
+      font-weight: 600; }
     .site-footer .footer-bottom .footer-social {
-      padding: 0rem 0.5rem;
+      padding: 1rem 0rem;
       display: flex;
       align-items: center;
       justify-content: space-between; }
       .site-footer .footer-bottom .footer-social .footer-social-link {
-        font-size: 0.7rem;
+        font-size: 1rem;
         color: #ffffff;
         padding: 0rem 0.7rem; }
 
@@ -425,4 +450,21 @@ body {
         font-size: 1rem;
         font-weight: 600; }
     .site-main .site-media .media-container:hover .media-image {
-      transform: scale(1.1); } }
+      transform: scale(1.1); }
+  .site-main .site-get-involved .involved-container {
+    padding: 2rem; }
+    .site-main .site-get-involved .involved-container .involved-image {
+      width: 50%; }
+    .site-main .site-get-involved .involved-container .involved-title {
+      font-size: 1.2rem; }
+  .site-footer .footer-top {
+    padding: 2rem 0rem; }
+    .site-footer .footer-top .site-container {
+      display: flex; }
+      .site-footer .footer-top .site-container .footer-top-info {
+        flex: 1; }
+        .site-footer .footer-top .site-container .footer-top-info .footer-logo {
+          display: block;
+          width: 60%; }
+      .site-footer .footer-top .site-container .footer-top-links {
+        flex: 1; } }
