@@ -150,7 +150,8 @@ body {
     .site-main .site-category .post .post-title {
       flex-shrink: 0; }
     .site-main .site-category .post .post-description {
-      flex: 1 0 auto; }
+      flex: 1 0 auto;
+      color: #0a0c0d; }
     .site-main .site-category .post .post-link {
       position: relative;
       background-color: #f7f7f7;

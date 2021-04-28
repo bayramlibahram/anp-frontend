@@ -233,6 +233,7 @@ body {
 
       .post-description {
         flex: 1 0 auto;
+        color:$default-color-1;
       }
 
       .post-link {
@@ -260,6 +261,7 @@ body {
           border-right: 0px solid transparent;
           height: 0;
           width: 80px;
+
         }
       }
     }
