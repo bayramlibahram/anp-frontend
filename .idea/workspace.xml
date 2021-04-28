@@ -2,13 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08f310f9-a37d-4c29-9171-deef5f0e42e9" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/images/call-center-agent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/megaphone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/platforms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/scss/argon-design-system.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/scss/argon-design-system.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/content/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/argon-design-system.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/argon.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/argon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/argon.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/argon.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/jquery.fancybox.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/jquery.fancybox.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/scss/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/content/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/marquee.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/marquee.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/owl.carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/owl.carousel.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/owl.carousel.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/owl.theme.default.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/owl.theme.default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/owl.theme.default.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/owl.theme.default.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/owl.theme.green.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/owl.theme.green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/owl.theme.green.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/owl.theme.green.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/owlmedia.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/owl-media.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/npm/node_modules/prettier" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/content/css" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Bahram\AppData\Roaming\npm\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
@@ -52,6 +64,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bahram\Desktop\anp-frontend\content\css" />
       <recent name="C:\Users\Bahram\Desktop\anp-frontend\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -88,7 +101,9 @@
       <workItem from="1619274757180" duration="284000" />
       <workItem from="1619275059439" duration="4822000" />
       <workItem from="1619284176163" duration="1028000" />
-      <workItem from="1619548771846" duration="7224000" />
+      <workItem from="1619548771846" duration="7563000" />
+      <workItem from="1619603843753" duration="2831000" />
+      <workItem from="1619609439412" duration="4615000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1619274605301</created>

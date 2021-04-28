@@ -21,8 +21,8 @@ p {
 }
 
 body {
-  font-family: "Raleway", sans-serif !important;
-  background-image: url("../images/site-back.jpg");
+  font-family: "Exo", sans-serif !important;
+  background-image: url("../../images/site-back.jpg");
 }
 
 .site-container {
@@ -120,7 +120,7 @@ body {
         color: #0a0c0d !important;
         text-transform: uppercase;
         font-weight: 700 !important;
-        font-family: "Raleway", sans-serif;
+        font-family: "Exo", sans-serif !important;
         border-bottom: 2px solid #ffffff;
         transition: color, border 0.3s ease;
         border-radius: 0px;
@@ -133,7 +133,7 @@ body {
 
       .navbar-toggler {
         .navbar-toggler-icon {
-          background-image: url("../images/hamburger.png") !important;
+          background-image: url("../../images/hamburger.png") !important;
         }
       }
     }
@@ -393,9 +393,24 @@ body {
 
 .site-footer {
   flex-shrink: 0;
+
   .footer-top {
     background-color: #ffffff;
+    .site-footer-info {
+      text-align: justify;
+      font-style: italic;
+      font-weight: 600;
+      font-size: 1.2rem;
+      color: $default-color-1;
+      padding: 0.5rem 0rem;
+    }
+
+    .footer-top-links {
+      .footer-link-title {
+      }
+    }
   }
+
   .footer-bottom {
     background-color: $brand-color-main;
     .site-container {
@@ -696,16 +711,56 @@ body {
     .footer-top {
       padding: 2rem 0rem;
       .site-container {
+        position: relative;
         display: flex;
+        justify-content: space-between;
+        .footer-logo-container,
+        .footer-link-title {
+          height: 100px;
+        }
         .footer-top-info {
-          flex: 1;
+          width: 40%;
           .footer-logo {
             display: block;
-            width: 60%;
+            width: 70%;
+          }
+          .top-info {
+            font-size: 1.2rem;
+            font-weight: 600;
+            font-style: italic;
+            text-align: justify;
+            color: $default-color-1;
+            padding: 1rem 0rem;
           }
         }
+
         .footer-top-links {
-          flex: 1;
+          width: 40%;
+          .footer-link-title {
+            font-size: 2rem;
+            color: $default-color-1;
+            font-weight: 600;
+            margin: 0;
+          }
+          display: flex;
+          flex-direction: column;
+          .footer-links {
+            padding: 1rem 0rem;
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .footer-link-element {
+              flex: 1 200px;
+              .footer-link {
+                display: block;
+                padding: 0.5rem 0rem;
+                font-size: 1.2rem;
+                font-weight: 600;
+                color: $default-color-1;
+              }
+            }
+          }
         }
       }
     }
