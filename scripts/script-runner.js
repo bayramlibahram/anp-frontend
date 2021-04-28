@@ -18,3 +18,7 @@ $(".owl-main").owlCarousel({
     },
   },
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  AOS.init();
+});

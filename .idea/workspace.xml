@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08f310f9-a37d-4c29-9171-deef5f0e42e9" name="Default Changelist" comment="update index.html footer">
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activities.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/capaigns.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/documents.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/events.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projects.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/public-interview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/resources.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/scss/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/scss/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/content/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hamburger.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/hamburger.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/script-runner.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script-runner.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -57,7 +65,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/content/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Bahram\AppData\Roaming\npm\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
@@ -65,8 +73,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Bahram\Desktop\anp-frontend\content\css" />
       <recent name="C:\Users\Bahram\Desktop\anp-frontend\images" />
+      <recent name="C:\Users\Bahram\Desktop\anp-frontend\content\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Bahram\Desktop\anp-frontend\images" />
@@ -104,7 +112,7 @@
       <workItem from="1619284176163" duration="1028000" />
       <workItem from="1619548771846" duration="7563000" />
       <workItem from="1619603843753" duration="2831000" />
-      <workItem from="1619609439412" duration="8999000" />
+      <workItem from="1619609439412" duration="20544000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1619274605301</created>
