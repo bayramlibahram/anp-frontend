@@ -97,7 +97,8 @@ body {
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: flex-end; }
+    justify-content: flex-end;
+    border-radius: 20px; }
     .site-main .site-slider .owl-main .owl-dots {
       position: absolute;
       display: flex;
@@ -120,8 +121,7 @@ body {
       left: 0;
       bottom: 0;
       right: 0;
-      z-index: 1;
-      background: rgba(0, 0, 0, 0.5); }
+      z-index: 1; }
   .site-main .site-slider .slider-item .slider-info img {
     display: none; }
   .site-main .site-slider .slider-item .slider-info .slider-title {
