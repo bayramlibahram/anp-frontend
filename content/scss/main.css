@@ -240,6 +240,8 @@ body {
         font-weight: 600; }
     .site-main .site-media .media-container:hover .media-image {
       transform: scale(1.1); }
+  .site-main .site-media .owl-dots {
+    display: none; }
   .site-main .site-get-involved .involved-container {
     background-color: #ffffff;
     border-radius: 30px;
@@ -260,14 +262,49 @@ body {
 .site-footer {
   flex-shrink: 0; }
   .site-footer .footer-top {
-    background-color: #ffffff; }
-    .site-footer .footer-top .site-footer-info {
-      text-align: justify;
-      font-style: italic;
-      font-weight: 600;
-      font-size: 1.2rem;
-      color: #0a0c0d;
-      padding: 0.5rem 0rem; }
+    background-color: #ffffff;
+    padding: 1rem; }
+    .site-footer .footer-top .site-container {
+      display: flex;
+      flex-direction: column; }
+      .site-footer .footer-top .site-container .footer-top-info {
+        order: 2; }
+        .site-footer .footer-top .site-container .footer-top-info .footer-logo-container .footer-logo {
+          width: 70%;
+          display: block;
+          margin: auto; }
+        .site-footer .footer-top .site-container .footer-top-info .top-info {
+          text-align: justify;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 1rem;
+          color: #0a0c0d;
+          padding: 0.5rem 0rem; }
+      .site-footer .footer-top .site-container .footer-top-links {
+        order: 1;
+        display: flex;
+        flex-direction: column; }
+        .site-footer .footer-top .site-container .footer-top-links .footer-link-title {
+          font-size: 1.5rem;
+          color: #0a0c0d;
+          font-weight: 600;
+          margin: 0;
+          text-align: center; }
+        .site-footer .footer-top .site-container .footer-top-links .footer-links {
+          padding: 1rem 0rem;
+          margin: 0;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap; }
+          .site-footer .footer-top .site-container .footer-top-links .footer-links .footer-link-element {
+            flex: 1 100px; }
+            .site-footer .footer-top .site-container .footer-top-links .footer-links .footer-link-element .footer-link {
+              display: block;
+              padding: 0.5rem 0rem;
+              font-size: 1rem;
+              font-weight: 600;
+              color: #0a0c0d;
+              text-align: center; }
   .site-footer .footer-bottom {
     background-color: #00a175; }
     .site-footer .footer-bottom .site-container {
@@ -469,15 +506,17 @@ body {
     .site-footer .footer-top .site-container {
       position: relative;
       display: flex;
+      flex-direction: row;
       justify-content: space-between; }
       .site-footer .footer-top .site-container .footer-logo-container,
       .site-footer .footer-top .site-container .footer-link-title {
         height: 100px; }
       .site-footer .footer-top .site-container .footer-top-info {
+        order: 1;
         width: 40%; }
-        .site-footer .footer-top .site-container .footer-top-info .footer-logo {
-          display: block;
-          width: 70%; }
+        .site-footer .footer-top .site-container .footer-top-info .footer-logo-container .footer-logo {
+          width: 70%;
+          margin: inherit; }
         .site-footer .footer-top .site-container .footer-top-info .top-info {
           font-size: 1.2rem;
           font-weight: 600;
@@ -487,13 +526,15 @@ body {
           padding: 1rem 0rem; }
       .site-footer .footer-top .site-container .footer-top-links {
         width: 40%;
+        order: 2;
         display: flex;
         flex-direction: column; }
         .site-footer .footer-top .site-container .footer-top-links .footer-link-title {
           font-size: 2rem;
           color: #0a0c0d;
           font-weight: 600;
-          margin: 0; }
+          margin: 0;
+          text-align: left; }
         .site-footer .footer-top .site-container .footer-top-links .footer-links {
           padding: 1rem 0rem;
           margin: 0;
@@ -507,4 +548,5 @@ body {
               padding: 0.5rem 0rem;
               font-size: 1.2rem;
               font-weight: 600;
-              color: #0a0c0d; } }
+              color: #0a0c0d;
+              text-align: initial; } }

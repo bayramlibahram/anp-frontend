@@ -1,26 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08f310f9-a37d-4c29-9171-deef5f0e42e9" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/content/scss/argon-design-system.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/scss/argon-design-system.scss" afterDir="false" />
+    <list default="true" id="08f310f9-a37d-4c29-9171-deef5f0e42e9" name="Default Changelist" comment="update index.html footer">
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/argon-design-system.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/argon.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/argon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/argon.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/argon.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/jquery.fancybox.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/jquery.fancybox.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/scss/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/content/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/marquee.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/marquee.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/owl.carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/owl.carousel.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/owl.carousel.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/owl.theme.default.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/owl.theme.default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/owl.theme.default.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/owl.theme.default.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/owl.theme.green.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/owl.theme.green.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/owl.theme.green.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/owl.theme.green.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/scss/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/scss/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/content/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hamburger.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/hamburger.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/owlmedia.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/owl-media.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +23,21 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="JsBowerSettings">
     <bower-package value="" />
@@ -103,7 +104,7 @@
       <workItem from="1619284176163" duration="1028000" />
       <workItem from="1619548771846" duration="7563000" />
       <workItem from="1619603843753" duration="2831000" />
-      <workItem from="1619609439412" duration="4615000" />
+      <workItem from="1619609439412" duration="8634000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1619274605301</created>
@@ -112,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619274605301</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update index.html footer">
+      <created>1619618636523</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619618636523</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +151,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="update index.html footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="update index.html footer" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
