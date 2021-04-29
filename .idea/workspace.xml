@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08f310f9-a37d-4c29-9171-deef5f0e42e9" name="Default Changelist" comment="update index.html footer">
-      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aboutus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contactus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/address.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/contactus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/email.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/location.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/scss/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/scss/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/content/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +106,7 @@
       <workItem from="1619603843753" duration="2831000" />
       <workItem from="1619609439412" duration="21206000" />
       <workItem from="1619686871823" duration="10989000" />
-      <workItem from="1619705102038" duration="12379000" />
+      <workItem from="1619705102038" duration="12867000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1619274605301</created>
