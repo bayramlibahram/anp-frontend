@@ -325,6 +325,30 @@ body {
     font-weight: 600;
     font-size: 0.6rem;
     color: #0a0c0d; }
+  .site-main .page-nav-sub-navs {
+    margin: 1rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #00a175;
+    border-bottom: 2px solid #00a175;
+    padding: 0.7rem 0rem; }
+    .site-main .page-nav-sub-navs .page-sub-nav-link {
+      text-transform: uppercase;
+      font-size: 0.49rem;
+      text-align: center;
+      border-radius: 30px;
+      padding: 0.3rem;
+      font-weight: 600;
+      background-color: #00a175;
+      color: #ffffff;
+      transition: all 0.3s ease; }
+      .site-main .page-nav-sub-navs .page-sub-nav-link:hover {
+        color: #00a175;
+        background-color: #ffffff; }
+    .site-main .page-nav-sub-navs .sub-link-active {
+      color: #00a175 !important;
+      background-color: #ffffff !important; }
   .site-main .media-watch-button {
     border-radius: 30px;
     color: #ffffff;
@@ -341,6 +365,144 @@ body {
     .site-main .media-watch-button:hover {
       color: #00a175;
       background-color: #ffffff; }
+  .site-main .site-about-us .about-us-data-container {
+    padding: 1rem;
+    color: #0a0c0d;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 10px !important; }
+    .site-main .site-about-us .about-us-data-container p {
+      color: #0a0c0d; }
+  .site-main .site-contact-us .contact-us-container {
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 10px; }
+  .site-main .site-contact-us .contact-us-info-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #00a175;
+    text-align: center; }
+  .site-main .site-contact-us .contact-us-info p {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: justify;
+    color: #0a0c0d; }
+  .site-main .site-contact-us .contact-us-contacts {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; }
+    .site-main .site-contact-us .contact-us-contacts .contact-us-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .site-main .site-contact-us .contact-us-contacts .contact-us-item .contact-us-item-image-container {
+        flex: 1; }
+        .site-main .site-contact-us .contact-us-contacts .contact-us-item .contact-us-item-image-container img {
+          display: block;
+          width: 40%;
+          margin: auto; }
+      .site-main .site-contact-us .contact-us-contacts .contact-us-item .email-container,
+      .site-main .site-contact-us .contact-us-contacts .contact-us-item .address-container {
+        padding: 0rem 1rem;
+        flex: 2; }
+        .site-main .site-contact-us .contact-us-contacts .contact-us-item .email-container a,
+        .site-main .site-contact-us .contact-us-contacts .contact-us-item .address-container a {
+          color: #00a175; }
+        .site-main .site-contact-us .contact-us-contacts .contact-us-item .email-container p,
+        .site-main .site-contact-us .contact-us-contacts .contact-us-item .address-container p {
+          font-weight: 600;
+          color: #0a0c0d; }
+  .site-main .site-contact-us .contact-us-message-container {
+    margin-top: 1rem; }
+    .site-main .site-contact-us .contact-us-message-container input,
+    .site-main .site-contact-us .contact-us-message-container textarea {
+      padding: 1.5rem;
+      border: 2px solid #00a175; }
+    .site-main .site-contact-us .contact-us-message-container input {
+      border-radius: 30px; }
+    .site-main .site-contact-us .contact-us-message-container textarea {
+      margin-top: 1.5rem;
+      border-radius: 20px; }
+  .site-main .site-contact-us .contact-us-terms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Hide the browser's default checkbox */
+    /* Create a custom checkbox */
+    /* On mouse-over, add a grey background color */
+    /* When the checkbox is checked, add a blue background */
+    /* Create the checkmark/indicator (hidden when not checked) */
+    /* Show the checkmark when checked */
+    /* Style the checkmark/indicator */ }
+    .site-main .site-contact-us .contact-us-terms p {
+      font-size: 1rem; }
+      .site-main .site-contact-us .contact-us-terms p a {
+        color: #00a175; }
+    .site-main .site-contact-us .contact-us-terms .check-container {
+      display: flex;
+      align-items: center;
+      height: 20px;
+      position: relative;
+      padding-left: 35px;
+      cursor: pointer;
+      font-size: 20px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; }
+    .site-main .site-contact-us .contact-us-terms .check-container input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0; }
+    .site-main .site-contact-us .contact-us-terms .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 25px;
+      width: 25px;
+      border-radius: 5px;
+      background-color: #eee; }
+    .site-main .site-contact-us .contact-us-terms .check-container:hover input ~ .checkmark {
+      background-color: #ccc; }
+    .site-main .site-contact-us .contact-us-terms .check-container input:checked ~ .checkmark {
+      background-color: #00a175; }
+    .site-main .site-contact-us .contact-us-terms .checkmark:after {
+      content: "";
+      position: absolute;
+      display: none; }
+    .site-main .site-contact-us .contact-us-terms .check-container input:checked ~ .checkmark:after {
+      display: block; }
+    .site-main .site-contact-us .contact-us-terms .check-container .checkmark:after {
+      left: 9px;
+      top: 5px;
+      width: 5px;
+      height: 10px;
+      border: solid white;
+      border-width: 0 3px 3px 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg); }
+  .site-main .site-contact-us .send-button {
+    border-radius: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #00a175;
+    padding: 0.8rem;
+    width: 30%;
+    text-align: center;
+    margin: 1rem 0rem;
+    transition: all 0.3s ease !important;
+    text-transform: uppercase;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    transform: scale(1); }
+    .site-main .site-contact-us .send-button:hover {
+      color: #00a175;
+      background-color: #ffffff;
+      transform: scale(1.05); }
 
 .site-footer {
   flex-shrink: 0; }
@@ -685,6 +847,31 @@ body {
     font-weight: 600;
     font-size: 1.2rem;
     color: #0a0c0d; }
+  .site-main .page-nav-sub-navs {
+    margin: 1rem 0rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid #00a175;
+    border-bottom: 2px solid #00a175;
+    padding: 0.7rem 0rem; }
+    .site-main .page-nav-sub-navs .page-sub-nav-link {
+      font-size: 0.8rem;
+      text-align: center;
+      border-radius: 30px;
+      padding: 0.7rem 0.8rem;
+      font-weight: 600;
+      background-color: #00a175;
+      color: #ffffff;
+      transform: scale(1);
+      transition: all 0.3s ease; }
+      .site-main .page-nav-sub-navs .page-sub-nav-link:hover {
+        transform: scale(1.05);
+        color: #00a175;
+        background-color: #ffffff; }
+    .site-main .page-nav-sub-navs .sub-link-active {
+      color: #00a175 !important;
+      background-color: #ffffff !important; }
   .site-main .media-watch-button {
     border-radius: 30px;
     color: #ffffff;
@@ -701,6 +888,42 @@ body {
     .site-main .media-watch-button:hover {
       color: #00a175;
       background-color: #ffffff; }
+  .site-main .site-contact-us .contact-us-info-title {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #00a175; }
+  .site-main .site-contact-us .contact-us-contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row; }
+    .site-main .site-contact-us .contact-us-contacts .contact-us-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .site-main .site-contact-us .contact-us-contacts .contact-us-item .contact-us-item-image-container {
+        flex: 1; }
+        .site-main .site-contact-us .contact-us-contacts .contact-us-item .contact-us-item-image-container img {
+          display: block;
+          width: 50%;
+          margin: auto; }
+      .site-main .site-contact-us .contact-us-contacts .contact-us-item .email-container,
+      .site-main .site-contact-us .contact-us-contacts .contact-us-item .address-container {
+        padding: 0rem 1rem;
+        flex: 2; }
+        .site-main .site-contact-us .contact-us-contacts .contact-us-item .email-container a,
+        .site-main .site-contact-us .contact-us-contacts .contact-us-item .address-container a {
+          color: #00a175; }
+        .site-main .site-contact-us .contact-us-contacts .contact-us-item .email-container p,
+        .site-main .site-contact-us .contact-us-contacts .contact-us-item .address-container p {
+          font-weight: 600;
+          color: #0a0c0d; }
+  .site-main .site-contact-us .contact-us-message-container {
+    margin: 0; }
+  .site-main #google-map {
+    width: 100%;
+    height: auto; }
   .site-footer .footer-top {
     padding: 2rem 0rem; }
     .site-footer .footer-top .site-container {

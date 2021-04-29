@@ -372,6 +372,7 @@ body {
       .media-icon-container {
         display: none;
       }
+
       &:hover .media-image {
         transform: scale(1.1);
       }
@@ -494,6 +495,38 @@ body {
     }
   }
 
+  .page-nav-sub-navs {
+    margin: 1rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid $brand-color-main;
+    border-bottom: 2px solid $brand-color-main;
+    padding: 0.7rem 0rem;
+
+    .page-sub-nav-link {
+      text-transform: uppercase;
+      font-size: 0.49rem;
+      text-align: center;
+      border-radius: 30px;
+      padding: 0.3rem;
+      font-weight: 600;
+      background-color: $brand-color-main;
+      color: #ffffff;
+      transition: all 0.3s ease;
+
+      &:hover {
+        color: $brand-color-main;
+        background-color: #ffffff;
+      }
+    }
+
+    .sub-link-active {
+      color: $brand-color-main !important;
+      background-color: #ffffff !important;
+    }
+  }
+
   .media-watch-button {
     border-radius: 30px;
     color: #ffffff;
@@ -507,9 +540,203 @@ body {
     transition: all 0.3s ease !important;
     text-transform: uppercase;
     font-size: 0.7rem;
+
     &:hover {
       color: $brand-color-main;
       background-color: #ffffff;
+    }
+  }
+
+  .site-about-us {
+    .about-us-data-container {
+      padding: 1rem;
+      color: $default-color-1;
+      justify-content: space-between;
+      background-color: #ffffff;
+      border-radius: 10px !important;
+
+      p {
+        color: $default-color-1;
+      }
+    }
+  }
+
+  .site-contact-us {
+    .contact-us-container {
+      padding: 1rem;
+      background-color: #ffffff;
+      border-radius: 10px;
+    }
+
+    .contact-us-info-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: $brand-color-main;
+      text-align: center;
+    }
+
+    .contact-us-info {
+      p {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: justify;
+        color: $default-color-1;
+      }
+    }
+
+    .contact-us-contacts {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+
+      .contact-us-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .contact-us-item-image-container {
+          flex: 1;
+          img {
+            display: block;
+            width: 40%;
+            margin: auto;
+          }
+        }
+
+        .email-container,
+        .address-container {
+          padding: 0rem 1rem;
+          flex: 2;
+
+          a {
+            color: $brand-color-main;
+          }
+
+          p {
+            font-weight: 600;
+            color: $default-color-1;
+          }
+        }
+      }
+    }
+
+    .contact-us-message-container {
+      margin-top: 1rem;
+      input,
+      textarea {
+        padding: 1.5rem;
+        border: 2px solid $brand-color-main;
+      }
+      input {
+        border-radius: 30px;
+      }
+      textarea {
+        margin-top: 1.5rem;
+        border-radius: 20px;
+      }
+    }
+
+    .contact-us-terms {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      p {
+        font-size: 1rem;
+        a {
+          color: $brand-color-main;
+        }
+      }
+
+      .check-container {
+        display: flex;
+        align-items: center;
+        height: 20px;
+        position: relative;
+        padding-left: 35px;
+        cursor: pointer;
+        font-size: 20px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      /* Hide the browser's default checkbox */
+      .check-container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+      }
+
+      /* Create a custom checkbox */
+      .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        border-radius: 5px;
+        background-color: #eee;
+      }
+
+      /* On mouse-over, add a grey background color */
+      .check-container:hover input ~ .checkmark {
+        background-color: #ccc;
+      }
+
+      /* When the checkbox is checked, add a blue background */
+      .check-container input:checked ~ .checkmark {
+        background-color: $brand-color-main;
+      }
+
+      /* Create the checkmark/indicator (hidden when not checked) */
+      .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+      }
+
+      /* Show the checkmark when checked */
+      .check-container input:checked ~ .checkmark:after {
+        display: block;
+      }
+
+      /* Style the checkmark/indicator */
+      .check-container .checkmark:after {
+        left: 9px;
+        top: 5px;
+        width: 5px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+    }
+
+    .send-button {
+      border-radius: 30px;
+      color: #ffffff;
+      font-weight: 600;
+      background-color: $brand-color-main;
+      padding: 0.8rem;
+      width: 30%;
+      text-align: center;
+      margin: 1rem 0rem;
+      transition: all 0.3s ease !important;
+      text-transform: uppercase;
+      font-size: 1rem;
+      outline: none;
+      border: none;
+      transform: scale(1);
+      &:hover {
+        color: $brand-color-main;
+        background-color: #ffffff;
+        transform: scale(1.05);
+      }
     }
   }
 }
@@ -906,6 +1133,7 @@ body {
           .media-image {
             transform: scale(1.1);
           }
+
           .media-icon-container {
             opacity: 1;
           }
@@ -919,6 +1147,7 @@ body {
         height: 270px;
         transform: scale(1);
         transition: all 0.3s ease !important;
+
         .involved-image {
           width: 50%;
         }
@@ -1027,6 +1256,39 @@ body {
       }
     }
 
+    .page-nav-sub-navs {
+      margin: 1rem 0rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border-top: 2px solid $brand-color-main;
+      border-bottom: 2px solid $brand-color-main;
+      padding: 0.7rem 0rem;
+
+      .page-sub-nav-link {
+        font-size: 0.8rem;
+        text-align: center;
+        border-radius: 30px;
+        padding: 0.7rem 0.8rem;
+        font-weight: 600;
+        background-color: $brand-color-main;
+        color: #ffffff;
+        transform: scale(1);
+        transition: all 0.3s ease;
+
+        &:hover {
+          transform: scale(1.05);
+          color: $brand-color-main;
+          background-color: #ffffff;
+        }
+      }
+
+      .sub-link-active {
+        color: $brand-color-main !important;
+        background-color: #ffffff !important;
+      }
+    }
+
     .media-watch-button {
       border-radius: 30px;
       color: #ffffff;
@@ -1040,10 +1302,66 @@ body {
       transition: all 0.3s ease !important;
       text-transform: uppercase;
       font-size: 1rem;
+
       &:hover {
         color: $brand-color-main;
         background-color: #ffffff;
       }
+    }
+
+    .site-contact-us {
+      .contact-us-info-title {
+        text-align: left;
+        font-size: 2rem;
+        font-weight: 600;
+        color: $brand-color-main;
+      }
+
+      .contact-us-contacts {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        .contact-us-item {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .contact-us-item-image-container {
+            flex: 1;
+
+            img {
+              display: block;
+              width: 50%;
+              margin: auto;
+            }
+          }
+
+          .email-container,
+          .address-container {
+            padding: 0rem 1rem;
+            flex: 2;
+
+            a {
+              color: $brand-color-main;
+            }
+
+            p {
+              font-weight: 600;
+              color: $default-color-1;
+            }
+          }
+        }
+      }
+
+      .contact-us-message-container {
+        margin: 0;
+      }
+    }
+
+    #google-map {
+      width: 100%;
+      height: auto;
     }
   }
 
