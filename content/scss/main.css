@@ -332,11 +332,12 @@ body {
     background-color: #00a175;
     padding: 0.8rem;
     display: block;
-    width: 12.5%;
+    width: 50%;
     text-align: center;
     margin: 1rem 0rem;
     transition: all 0.3s ease !important;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-size: 0.7rem; }
     .site-main .media-watch-button:hover {
       color: #00a175;
       background-color: #ffffff; }
@@ -684,6 +685,22 @@ body {
     font-weight: 600;
     font-size: 1.2rem;
     color: #0a0c0d; }
+  .site-main .media-watch-button {
+    border-radius: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #00a175;
+    padding: 0.8rem;
+    display: block;
+    width: 12.5%;
+    text-align: center;
+    margin: 1rem 0rem;
+    transition: all 0.3s ease !important;
+    text-transform: uppercase;
+    font-size: 1rem; }
+    .site-main .media-watch-button:hover {
+      color: #00a175;
+      background-color: #ffffff; }
   .site-footer .footer-top {
     padding: 2rem 0rem; }
     .site-footer .footer-top .site-container {

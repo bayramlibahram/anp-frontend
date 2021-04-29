@@ -501,11 +501,12 @@ body {
     background-color: $brand-color-main;
     padding: 0.8rem;
     display: block;
-    width: 12.5%;
+    width: 50%;
     text-align: center;
     margin: 1rem 0rem;
     transition: all 0.3s ease !important;
     text-transform: uppercase;
+    font-size: 0.7rem;
     &:hover {
       color: $brand-color-main;
       background-color: #ffffff;
@@ -1023,6 +1024,25 @@ body {
         font-weight: 600;
         font-size: 1.2rem;
         color: $default-color-1;
+      }
+    }
+
+    .media-watch-button {
+      border-radius: 30px;
+      color: #ffffff;
+      font-weight: 600;
+      background-color: $brand-color-main;
+      padding: 0.8rem;
+      display: block;
+      width: 12.5%;
+      text-align: center;
+      margin: 1rem 0rem;
+      transition: all 0.3s ease !important;
+      text-transform: uppercase;
+      font-size: 1rem;
+      &:hover {
+        color: $brand-color-main;
+        background-color: #ffffff;
       }
     }
   }
