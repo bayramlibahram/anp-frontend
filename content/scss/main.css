@@ -608,11 +608,16 @@ body {
     .site-main .site-media .media-container:hover .media-icon-container {
       opacity: 1; }
   .site-main .site-get-involved .involved-container {
-    padding: 2rem; }
+    padding: 2rem;
+    height: 270px;
+    transform: scale(1);
+    transition: all 0.3s ease !important; }
     .site-main .site-get-involved .involved-container .involved-image {
       width: 50%; }
     .site-main .site-get-involved .involved-container .involved-title {
       font-size: 1.2rem; }
+    .site-main .site-get-involved .involved-container:hover {
+      transform: scale(1.05); }
   .site-main .site-page-header .page-header-container {
     position: relative; }
     .site-main .site-page-header .page-header-container .page-image {
@@ -630,7 +635,8 @@ body {
         position: relative;
         font-size: 2rem;
         padding: 0.5rem 2rem;
-        z-index: 2; }
+        z-index: 2;
+        text-transform: uppercase; }
       .site-main .site-page-header .page-header-container .page-name-container .page-name-overlay {
         width: 100%;
         height: 100%;
