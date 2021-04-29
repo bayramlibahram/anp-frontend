@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08f310f9-a37d-4c29-9171-deef5f0e42e9" name="Default Changelist" comment="update index.html footer">
-      <change afterPath="$PROJECT_DIR$/activities.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/capaigns.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/documents.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/events.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/file.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/public-interview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/resources.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gallery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/media.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/video-player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/scss/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/scss/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/content/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/script-runner.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script-runner.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +106,8 @@
       <workItem from="1619284176163" duration="1028000" />
       <workItem from="1619548771846" duration="7563000" />
       <workItem from="1619603843753" duration="2831000" />
-      <workItem from="1619609439412" duration="20544000" />
+      <workItem from="1619609439412" duration="21206000" />
+      <workItem from="1619686871823" duration="5621000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1619274605301</created>
