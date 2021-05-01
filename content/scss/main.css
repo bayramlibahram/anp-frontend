@@ -157,6 +157,29 @@ body {
     .site-main .site-category .post .post-description {
       flex: 1 0 auto;
       color: #0a0c0d; }
+    .site-main .site-category .post .post-link {
+      position: relative;
+      background-color: #f7f7f7;
+      flex-shrink: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .site-main .site-category .post .post-link .post-link-more {
+        font-size: 1rem;
+        color: #0a0c0d;
+        font-weight: 600;
+        padding: 0rem 1rem; }
+      .site-main .site-category .post .post-link .post-link-arrow {
+        position: absolute;
+        right: 32px;
+        color: #ffffff;
+        font-size: 2.5rem; }
+      .site-main .site-category .post .post-link .link {
+        border-bottom: 60px solid #00a175;
+        border-left: 30px solid transparent;
+        border-right: 0px solid transparent;
+        height: 0;
+        width: 80px; }
     .site-main .site-category .post .post-project-link {
       display: flex;
       align-items: center;
@@ -631,7 +654,7 @@ body {
       text-align: inherit; }
     .site-main .site-category .post .post-project-link .post-project-more {
       font-size: 1.2rem;
-      font-weight: 400; }
+      font-weight: 600; }
     .site-main .site-category .post .post-project-link .post-project-icon {
       font-size: 2.2rem;
       margin: 0rem 1rem; }
