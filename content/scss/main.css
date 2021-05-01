@@ -148,40 +148,27 @@ body {
       display: block;
       border-radius: 10px; }
     .site-main .site-category .post .post-title {
-      flex-shrink: 0; }
+      flex-shrink: 0;
+      font-size: 1rem;
+      font-weight: 600;
+      text-align: justify;
+      color: #0a0c0d;
+      transition: color 0.3s ease; }
     .site-main .site-category .post .post-description {
       flex: 1 0 auto;
       color: #0a0c0d; }
-    .site-main .site-category .post .post-link {
-      position: relative;
-      background-color: #f7f7f7;
-      flex-shrink: 0;
-      display: flex;
-      justify-content: space-between;
-      align-items: center; }
-      .site-main .site-category .post .post-link .post-link-more {
-        font-size: 1rem;
-        color: #0a0c0d;
-        font-weight: 600;
-        padding: 0rem 1rem; }
-      .site-main .site-category .post .post-link .post-link-arrow {
-        position: absolute;
-        right: 32px;
-        color: #ffffff;
-        font-size: 2.5rem; }
-      .site-main .site-category .post .post-link .link {
-        border-bottom: 60px solid #00a175;
-        border-left: 30px solid transparent;
-        border-right: 0px solid transparent;
-        height: 0;
-        width: 80px; }
     .site-main .site-category .post .post-project-link {
       display: flex;
-      justify-content: flex-start;
-      align-items: center; }
-      .site-main .site-category .post .post-project-link .post.post-project-icon i {
+      align-items: center;
+      justify-content: flex-start; }
+      .site-main .site-category .post .post-project-link .post-project-more {
+        color: #0a0c0d;
+        font-size: 1rem;
+        font-weight: 600; }
+      .site-main .site-category .post .post-project-link .post-project-icon {
+        color: #00a175;
         font-size: 2rem;
-        color: #00a175; }
+        margin: 0rem 1rem; }
   .site-main .site-resources .resources-image-container {
     position: relative;
     background-color: #00a175; }
@@ -640,9 +627,14 @@ body {
       border-radius: 10px; }
     .site-main .site-category .post .post-title {
       font-size: 1.7rem;
-      color: #0a0c0d;
       font-weight: 700;
-      transition: color 0.3s ease; }
+      text-align: inherit; }
+    .site-main .site-category .post .post-project-link .post-project-more {
+      font-size: 1.2rem;
+      font-weight: 400; }
+    .site-main .site-category .post .post-project-link .post-project-icon {
+      font-size: 2.2rem;
+      margin: 0rem 1rem; }
     .site-main .site-category .post:hover .post-title {
       color: #00a175; }
   .site-main .site-resources .resources-image-container {
@@ -932,9 +924,6 @@ body {
           color: #0a0c0d; }
   .site-main .site-contact-us .contact-us-message-container {
     margin: 0; }
-  .site-main #google-map {
-    width: 100%;
-    height: auto; }
   .site-footer .footer-top {
     padding: 2rem 0rem; }
     .site-footer .footer-top .site-container {
