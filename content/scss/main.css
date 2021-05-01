@@ -155,7 +155,10 @@ body {
     .site-main .site-category .post .post-link {
       position: relative;
       background-color: #f7f7f7;
-      flex-shrink: 0; }
+      flex-shrink: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
       .site-main .site-category .post .post-link .post-link-more {
         font-size: 1rem;
         color: #0a0c0d;
@@ -172,6 +175,13 @@ body {
         border-right: 0px solid transparent;
         height: 0;
         width: 80px; }
+    .site-main .site-category .post .post-project-link {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center; }
+      .site-main .site-category .post .post-project-link .post.post-project-icon i {
+        font-size: 2rem;
+        color: #00a175; }
   .site-main .site-resources .resources-image-container {
     position: relative;
     background-color: #00a175; }
@@ -622,7 +632,8 @@ body {
   .site-main .site-category .post {
     border-radius: 10px;
     background-color: #ffffff;
-    cursor: pointer; }
+    cursor: pointer;
+    width: 100%; }
     .site-main .site-category .post img {
       width: 100%;
       display: block;

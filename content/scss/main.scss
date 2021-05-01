@@ -244,6 +244,9 @@ body {
         position: relative;
         background-color: #f7f7f7;
         flex-shrink: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
         .post-link-more {
           font-size: 1rem;
@@ -265,6 +268,18 @@ body {
           border-right: 0px solid transparent;
           height: 0;
           width: 80px;
+        }
+      }
+
+      .post-project-link {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        .post.post-project-icon {
+         i{
+           font-size: 2rem;
+           color: $brand-color-main;
+         }
         }
       }
     }
@@ -928,7 +943,7 @@ body {
         border-radius: 10px;
         background-color: #ffffff;
         cursor: pointer;
-
+        width: 100%;
         img {
           width: 100%;
           display: block;
