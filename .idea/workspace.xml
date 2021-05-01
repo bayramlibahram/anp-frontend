@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08f310f9-a37d-4c29-9171-deef5f0e42e9" name="Default Changelist" comment="update index.html footer">
-      <change beforePath="$PROJECT_DIR$/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publications.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statements.html" beforeDir="false" afterPath="$PROJECT_DIR$/statements.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +77,7 @@
       <recent name="C:\Users\Bahram\Desktop\anp-frontend\content\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bahram\Desktop\anp-frontend" />
       <recent name="C:\Users\Bahram\Desktop\anp-frontend\images" />
       <recent name="C:\Users\Bahram\Desktop\anp-frontend\images\photos" />
     </key>
@@ -128,7 +130,7 @@
       <workItem from="1619890705323" duration="970000" />
       <workItem from="1619892888573" duration="19000" />
       <workItem from="1619892961395" duration="22000" />
-      <workItem from="1619893001450" duration="5973000" />
+      <workItem from="1619893001450" duration="6291000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1619274605301</created>
