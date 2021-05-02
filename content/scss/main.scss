@@ -1,9 +1,9 @@
 $brand-color-main: #00a175;
-$default-color-1: #0a0c0d;
+$default-color-1: #2f3640;
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 }
 
 a {
@@ -213,67 +213,66 @@ body {
   }
 
   .site-category {
-
     .post-category {
       color: $brand-color-main;
       font-size: 1.5rem !important;
     }
 
     .post {
-      border-radius    : 10px;
-      background-color : #ffffff;
-      display          : flex;
-      flex-direction   : column;
-      margin-bottom    : 1rem;
+      border-radius: 10px;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
 
       img {
-        width         : 100%;
-        display       : block;
-        border-radius : 10px;
+        width: 100%;
+        display: block;
+        border-radius: 10px;
       }
 
       .post-title {
-        flex-shrink : 0;
-        font-size   : 1rem;
-        font-weight : 600;
-        text-align  : justify;
-        color       : $default-color-1;
-        transition  : color 0.3s ease;
+        flex-shrink: 0;
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: justify;
+        color: $default-color-1;
+        transition: color 0.3s ease;
       }
 
       .post-description {
-        flex  : 1 0 auto;
-        color : $default-color-1;
+        flex: 1 0 auto;
+        color: $default-color-1;
       }
 
       .post-link {
-        position         : relative;
-        background-color : #f7f7f7;
-        flex-shrink      : 0;
-        display          : flex;
-        justify-content  : space-between;
-        align-items      : center;
+        position: relative;
+        background-color: #f7f7f7;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
         .post-link-more {
-          font-size   : 1rem;
-          color       : #0a0c0d;
-          font-weight : 600;
-          padding     : 0rem 1rem;
+          font-size: 1rem;
+          color: #0a0c0d;
+          font-weight: 600;
+          padding: 0rem 1rem;
         }
 
         .post-link-arrow {
-          position  : absolute;
-          right     : 32px;
-          color     : #ffffff;
-          font-size : 2.5rem;
+          position: absolute;
+          right: 32px;
+          color: #ffffff;
+          font-size: 2.5rem;
         }
 
         .link {
-          border-bottom : 60px solid $brand-color-main;
-          border-left   : 30px solid transparent;
-          border-right  : 0px solid transparent;
-          height        : 0;
-          width         : 80px;
+          border-bottom: 60px solid $brand-color-main;
+          border-left: 30px solid transparent;
+          border-right: 0px solid transparent;
+          height: 0;
+          width: 80px;
         }
       }
 
@@ -292,9 +291,7 @@ body {
           margin: 0rem 1rem;
         }
       }
-
     }
-
   }
 
   .site-resources {
@@ -869,6 +866,69 @@ body {
   }
 }
 
+.site-login {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  .login-image-container {
+    display: none;
+  }
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+    background-color: #ffffff;
+    .login-title {
+      color: $default-color-1;
+      font-size: 1.5rem;
+      font-weight: 600;
+      text-align: center;
+    }
+    .login-button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .login-button {
+        border-radius: 30px;
+        padding: 0.7rem 1rem;
+        color: #ffffff;
+        background-color: $brand-color-main;
+        border: none;
+        outline: none;
+        width: 45%;
+        transition: background 0.3s ease, color 0.3s ease;
+
+        &:hover {
+          color: $brand-color-main;
+          background-color: #ffffff;
+        }
+      }
+    }
+
+    a {
+      display: block;
+      img {
+        display: block;
+        width: 50%;
+        margin: auto;
+      }
+    }
+    label {
+      color: $brand-color-main;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+    input {
+      border-radius: 30px;
+      border: 2px solid $brand-color-main;
+    }
+  }
+}
+
 @media (min-width: 768px) {
   .site-header {
     .header-top {
@@ -946,7 +1006,6 @@ body {
     }
 
     .site-category {
-
       .post-category {
         color: $brand-color-main;
         font-size: 2.5rem !important;
@@ -1393,7 +1452,6 @@ body {
         margin: 0;
       }
     }
-
   }
 
   .site-footer {
@@ -1467,6 +1525,68 @@ body {
             }
           }
         }
+      }
+    }
+  }
+
+  .site-login {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    .login-image-container {
+      flex: 2;
+      display: block;
+      width: 100%;
+      background-image: url("../../images/notebook.jpg");
+      background-size: cover;
+    }
+    .login-container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      padding: 1rem;
+      background-color: #ffffff;
+      .login-title {
+        color: $default-color-1;
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+      }
+      .login-button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .login-button {
+          border-radius: 30px;
+          padding: 0.7rem 1rem;
+          color: #ffffff;
+          background-color: $brand-color-main;
+          border: none;
+          outline: none;
+          width: 25%;
+        }
+      }
+
+      a {
+        display: block;
+        img {
+          display: block;
+          width: 50%;
+          margin: auto;
+        }
+      }
+      label {
+        color: $brand-color-main;
+        font-size: 1rem;
+        font-weight: 600;
+      }
+      input {
+        border-radius: 30px;
+        border: 2px solid $brand-color-main;
       }
     }
   }

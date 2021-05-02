@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08f310f9-a37d-4c29-9171-deef5f0e42e9" name="Default Changelist" comment="update index.html footer">
-      <change afterPath="$PROJECT_DIR$/tvprograms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media.html" beforeDir="false" afterPath="$PROJECT_DIR$/media.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/loginbackground.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/notebook.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/scss/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/scss/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/content/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +81,8 @@
       <recent name="C:\Users\Bahram\Desktop\anp-frontend\content\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Bahram\Desktop\anp-frontend" />
       <recent name="C:\Users\Bahram\Desktop\anp-frontend\images" />
+      <recent name="C:\Users\Bahram\Desktop\anp-frontend" />
       <recent name="C:\Users\Bahram\Desktop\anp-frontend\images\photos" />
     </key>
   </component>
@@ -130,7 +134,9 @@
       <workItem from="1619890705323" duration="970000" />
       <workItem from="1619892888573" duration="19000" />
       <workItem from="1619892961395" duration="22000" />
-      <workItem from="1619893001450" duration="6633000" />
+      <workItem from="1619893001450" duration="7143000" />
+      <workItem from="1619957101535" duration="1288000" />
+      <workItem from="1619967972816" duration="7455000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1619274605301</created>
